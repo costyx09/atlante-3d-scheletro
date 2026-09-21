@@ -15,40 +15,42 @@ export interface OrganoModello {
   note?: string;
 }
 
+const MODEL_BASE = `${import.meta.env.BASE_URL}models/`;
+
 export const ORGANI_DISPONIBILI: OrganoModello[] = [
   // --- Apparato digerente (completo) ---
-  { apparatoId: "digerente", organoId: "cavo-orale", glbPath: "/models/cavo-orale-test.glb" },
-  { apparatoId: "digerente", organoId: "ghiandole-salivari", glbPath: "/models/ghiandole-salivari-test.glb" },
-  { apparatoId: "digerente", organoId: "esofago", glbPath: "/models/esofago-test.glb" },
-  { apparatoId: "digerente", organoId: "stomaco", glbPath: "/models/stomaco-test.glb" },
-  { apparatoId: "digerente", organoId: "fegato", glbPath: "/models/fegato-test.glb" },
-  { apparatoId: "digerente", organoId: "cistifellea", glbPath: "/models/cistifellea-test.glb" },
-  { apparatoId: "digerente", organoId: "pancreas", glbPath: "/models/pancreas-test.glb" },
-  { apparatoId: "digerente", organoId: "intestino-tenue", glbPath: "/models/intestino-tenue-test.glb" },
-  { apparatoId: "digerente", organoId: "intestino-crasso", glbPath: "/models/intestino-crasso-test.glb" },
+  { apparatoId: "digerente", organoId: "cavo-orale", glbPath: `${MODEL_BASE}cavo-orale-test.glb` },
+  { apparatoId: "digerente", organoId: "ghiandole-salivari", glbPath: `${MODEL_BASE}ghiandole-salivari-test.glb` },
+  { apparatoId: "digerente", organoId: "esofago", glbPath: `${MODEL_BASE}esofago-test.glb` },
+  { apparatoId: "digerente", organoId: "stomaco", glbPath: `${MODEL_BASE}stomaco-test.glb` },
+  { apparatoId: "digerente", organoId: "fegato", glbPath: `${MODEL_BASE}fegato-test.glb` },
+  { apparatoId: "digerente", organoId: "cistifellea", glbPath: `${MODEL_BASE}cistifellea-test.glb` },
+  { apparatoId: "digerente", organoId: "pancreas", glbPath: `${MODEL_BASE}pancreas-test.glb` },
+  { apparatoId: "digerente", organoId: "intestino-tenue", glbPath: `${MODEL_BASE}intestino-tenue-test.glb` },
+  { apparatoId: "digerente", organoId: "intestino-crasso", glbPath: `${MODEL_BASE}intestino-crasso-test.glb` },
 
   // --- Apparato respiratorio (completo) ---
-  { apparatoId: "respiratorio", organoId: "trachea", glbPath: "/models/trachea-test.glb" },
-  { apparatoId: "respiratorio", organoId: "bronchi", glbPath: "/models/bronchi-test.glb" },
-  { apparatoId: "respiratorio", organoId: "polmoni", glbPath: "/models/polmoni-test.glb" },
+  { apparatoId: "respiratorio", organoId: "trachea", glbPath: `${MODEL_BASE}trachea-test.glb` },
+  { apparatoId: "respiratorio", organoId: "bronchi", glbPath: `${MODEL_BASE}bronchi-test.glb` },
+  { apparatoId: "respiratorio", organoId: "polmoni", glbPath: `${MODEL_BASE}polmoni-test.glb` },
 
   // --- Apparato cardiovascolare (cuore + grandi vasi principali) ---
-  { apparatoId: "circolatorio", organoId: "cuore", glbPath: "/models/cuore-test.glb" },
-  { apparatoId: "circolatorio", organoId: "grandi-vasi", glbPath: "/models/grandi-vasi-test.glb" },
+  { apparatoId: "circolatorio", organoId: "cuore", glbPath: `${MODEL_BASE}cuore-test.glb` },
+  { apparatoId: "circolatorio", organoId: "grandi-vasi", glbPath: `${MODEL_BASE}grandi-vasi-test.glb` },
 
   // --- Apparato urinario (completo) ---
-  { apparatoId: "urinario", organoId: "reni", glbPath: "/models/reni-test.glb" },
-  { apparatoId: "urinario", organoId: "vie-urinarie", glbPath: "/models/vie-urinarie-test.glb" },
+  { apparatoId: "urinario", organoId: "reni", glbPath: `${MODEL_BASE}reni-test.glb` },
+  { apparatoId: "urinario", organoId: "vie-urinarie", glbPath: `${MODEL_BASE}vie-urinarie-test.glb` },
 
   // --- Apparato endocrino (parziale: tiroide e surreni) ---
-  { apparatoId: "endocrino", organoId: "tiroide", glbPath: "/models/tiroide-test.glb" },
-  { apparatoId: "endocrino", organoId: "surreni", glbPath: "/models/surreni-test.glb" },
+  { apparatoId: "endocrino", organoId: "tiroide", glbPath: `${MODEL_BASE}tiroide-test.glb` },
+  { apparatoId: "endocrino", organoId: "surreni", glbPath: `${MODEL_BASE}surreni-test.glb` },
 
   // --- Apparato locomotore (scheletro assiale + arti; funge anche da
   // riferimento visivo per l'intero corpo, vedi IsolationSystem) ---
-  { apparatoId: "locomotore", organoId: "cranio", glbPath: "/models/cranio-test.glb" },
-  { apparatoId: "locomotore", organoId: "colonna-vertebrale", glbPath: "/models/colonna-vertebrale-test.glb" },
-  { apparatoId: "locomotore", organoId: "gabbia-toracica", glbPath: "/models/gabbia-toracica-test.glb" },
-  { apparatoId: "locomotore", organoId: "bacino", glbPath: "/models/bacino-test.glb" },
-  { apparatoId: "locomotore", organoId: "arti-scheletrici", glbPath: "/models/arti-scheletrici-test.glb" },
+  { apparatoId: "locomotore", organoId: "cranio", glbPath: `${MODEL_BASE}cranio-test.glb` },
+  { apparatoId: "locomotore", organoId: "colonna-vertebrale", glbPath: `${MODEL_BASE}colonna-vertebrale-test.glb` },
+  { apparatoId: "locomotore", organoId: "gabbia-toracica", glbPath: `${MODEL_BASE}gabbia-toracica-test.glb` },
+  { apparatoId: "locomotore", organoId: "bacino", glbPath: `${MODEL_BASE}bacino-test.glb` },
+  { apparatoId: "locomotore", organoId: "arti-scheletrici", glbPath: `${MODEL_BASE}arti-scheletrici-test.glb` },
 ];

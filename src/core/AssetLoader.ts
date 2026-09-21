@@ -46,7 +46,7 @@ function getGltfLoader(): GLTFLoader {
     const draco = new DRACOLoader();
     // Decoder servito localmente da /public/draco (nessuna dipendenza da CDN esterni:
     // funziona offline ed è verificabile anche in ambienti di rete ristretti).
-    draco.setDecoderPath("/draco/");
+    draco.setDecoderPath(`${import.meta.env.BASE_URL}draco/`);
     gltfLoader = new GLTFLoader();
     gltfLoader.setDRACOLoader(draco);
   }

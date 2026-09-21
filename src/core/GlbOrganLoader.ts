@@ -21,7 +21,7 @@ let dracoLoader: DRACOLoader | null = null;
 function getLoader(): GLTFLoader {
   if (!dracoLoader) {
     dracoLoader = new DRACOLoader();
-    dracoLoader.setDecoderPath("/draco/");
+    dracoLoader.setDecoderPath(`${import.meta.env.BASE_URL}draco/`);
   }
   const loader = new GLTFLoader();
   loader.setDRACOLoader(dracoLoader);
