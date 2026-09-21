@@ -736,6 +736,94 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  #ui-overlay {
+    grid-template-rows: auto auto minmax(0, 1fr) auto minmax(0, 31vh);
+    gap: 8px;
+    padding: 8px;
+  }
+
+  .toolbar {
+    padding: 10px;
+    gap: 8px;
+  }
+
+  .toolbar__titolo-principale {
+    font-size: 1.05rem;
+  }
+
+  .toolbar__azioni {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .toolbar__secondario,
+  .toolbar__reset {
+    width: 100%;
+    min-height: 34px;
+    padding: 7px 6px;
+    font-size: 0.72rem;
+    white-space: nowrap;
+  }
+
+  .breadcrumb {
+    max-width: 100%;
+    padding: 7px 10px;
+    font-size: 0.7rem;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .sidebar {
+    min-height: 76px;
+    max-height: 96px;
+    padding: 8px 10px;
+    gap: 6px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  .sidebar__lista {
+    align-items: stretch;
+    gap: 6px;
+  }
+
+  .sidebar__voce {
+    min-height: 58px;
+    width: max-content;
+    min-width: 142px;
+    padding: 8px 9px;
+    gap: 7px;
+    font-size: 0.72rem;
+  }
+
+  .sidebar__badge {
+    display: none;
+  }
+
+  .info-panel {
+    min-height: 0;
+    max-height: none;
+    padding: 14px;
+    gap: 8px;
+    border-radius: 10px;
+  }
+
+  .info-panel__titolo {
+    font-size: 1.25rem;
+  }
+
+  .info-panel__testo {
+    font-size: 0.78rem;
+    line-height: 1.4;
+  }
+
+  .info-panel__organo {
+    padding: 9px 10px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     transition-duration: 0.01ms !important;
