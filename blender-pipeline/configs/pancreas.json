@@ -1,0 +1,8 @@
+{
+  "apparato_id": "digerente", "organo_id": "pancreas",
+  "oggetti": ["Pancreas"], "parti": {},
+  "materiali": {}, "materiale_default": [0.88, 0.82, 0.5],
+  "output": "/home/claude/zanatomy/export/pancreas-test.glb",
+  "output_verifica_gltf": "/home/claude/zanatomy/export/pancreas-test-verifica.gltf",
+  "note_approfondimento": ["Testa/collo/corpo del pancreas esistono solo come label .j/.t (nessuna mesh separata): trattate come contenuto testuale."]
+}

@@ -1,0 +1,4 @@
+{"apparato_id":"respiratorio","organo_id":"trachea","oggetti":["Trachea"],"parti":{},
+ "materiali":{},"materiale_default":[0.85,0.75,0.7],
+ "output":"/home/claude/zanatomy/export/trachea-test.glb",
+ "output_verifica_gltf":"/home/claude/zanatomy/export/trachea-test-verifica.gltf","note_approfondimento":[]}

@@ -1,0 +1,9 @@
+{
+  "apparato_id": "digerente", "organo_id": "intestino-tenue",
+  "oggetti": ["Duodenum", "Jejunum"],
+  "parti": {"Duodenum": "duodeno", "Jejunum": "digiuno"},
+  "materiali": {}, "materiale_default": [0.8, 0.6, 0.35],
+  "output": "/home/claude/zanatomy/export/intestino-tenue-test.glb",
+  "output_verifica_gltf": "/home/claude/zanatomy/export/intestino-tenue-test-verifica.gltf",
+  "note_approfondimento": ["L'ileo (ileum) non esiste come oggetto nel file Z-Anatomy (nessuna mesh né label trovata): il digiuno (Jejunum, oggetto CURVE) ne rappresenta verosimilmente anche il tratto finale in questo modello semplificato. Documentato invece di inventare una mesh."]
+}

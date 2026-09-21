@@ -1,0 +1,5 @@
+{"apparato_id":"urinario","organo_id":"reni","oggetti":["Kidney.l","Kidney.r"],
+ "parti":{"Kidney.l":"rene-sinistro","Kidney.r":"rene-destro"},
+ "materiali":{},"materiale_default":[0.55,0.25,0.25],
+ "output":"/home/claude/zanatomy/export/reni-test.glb",
+ "output_verifica_gltf":"/home/claude/zanatomy/export/reni-test-verifica.gltf","note_approfondimento":[]}

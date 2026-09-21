@@ -1,0 +1,7 @@
+{"apparato_id":"circolatorio","organo_id":"cuore",
+ "oggetti":["Left atrium","Right atrium","Left ventricle","Right ventricle"],
+ "parti":{"Left atrium":"atrio-sinistro","Right atrium":"atrio-destro","Left ventricle":"ventricolo-sinistro","Right ventricle":"ventricolo-destro"},
+ "materiali":{},"materiale_default":[0.75,0.15,0.2],
+ "output":"/home/claude/zanatomy/export/cuore-test.glb",
+ "output_verifica_gltf":"/home/claude/zanatomy/export/cuore-test-verifica.gltf",
+ "note_approfondimento":["Nessuna mesh 'Heart' intera: l'organo è ricostruito come unione delle 4 camere cardiache reali."]}

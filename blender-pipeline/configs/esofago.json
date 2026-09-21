@@ -1,0 +1,8 @@
+{
+  "apparato_id": "digerente", "organo_id": "esofago",
+  "oggetti": ["Oesophagus"], "parti": {},
+  "materiali": {}, "materiale_default": [0.82, 0.55, 0.5],
+  "output": "/home/claude/zanatomy/export/esofago-test.glb",
+  "output_verifica_gltf": "/home/claude/zanatomy/export/esofago-test-verifica.gltf",
+  "note_approfondimento": ["Oesophagus è un oggetto CURVE con profilo di bevel (Oesophagus-profile); Blender segnala un ciclo di dipendenza sul modifier Solidify+Curve Follow, ma la geometria valutata è non degenere (8160 vertici, bbox coerente con un tubo ~28cm). Da monitorare in futuro se si nota una deformazione visiva."]
+}

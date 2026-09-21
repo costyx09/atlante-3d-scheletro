@@ -1,0 +1,10 @@
+{"apparato_id":"respiratorio","organo_id":"bronchi",
+ "oggetti":["Left main bronchus","Right main bronchus","Left superior lobar bronchus","Left inferior lobar bronchus","Right superior lobar bronchus","Middle lobar bronchus.r","Right inferior lobar bronchus"],
+ "parti":{"Left main bronchus":"bronco-principale-sinistro","Right main bronchus":"bronco-principale-destro",
+ "Left superior lobar bronchus":"bronco-lobare-superiore-sinistro","Left inferior lobar bronchus":"bronco-lobare-inferiore-sinistro",
+ "Right superior lobar bronchus":"bronco-lobare-superiore-destro","Middle lobar bronchus.r":"bronco-lobare-medio-destro",
+ "Right inferior lobar bronchus":"bronco-lobare-inferiore-destro"},
+ "materiali":{},"materiale_default":[0.8,0.7,0.75],
+ "output":"/home/claude/zanatomy/export/bronchi-test.glb",
+ "output_verifica_gltf":"/home/claude/zanatomy/export/bronchi-test-verifica.gltf",
+ "note_approfondimento":[]}

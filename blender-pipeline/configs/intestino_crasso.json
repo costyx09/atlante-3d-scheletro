@@ -1,0 +1,13 @@
+{
+  "apparato_id": "digerente", "organo_id": "intestino-crasso",
+  "oggetti": ["Ascending colon", "Transverse colon", "Descending colon", "Sigmoid colon", "Vermiform appendix"],
+  "parti": {
+    "Ascending colon": "colon-ascendente", "Transverse colon": "colon-trasverso",
+    "Descending colon": "colon-discendente", "Sigmoid colon": "colon-sigmoideo",
+    "Vermiform appendix": "appendice"
+  },
+  "materiali": {}, "materiale_default": [0.75, 0.55, 0.6],
+  "output": "/home/claude/zanatomy/export/intestino-crasso-test.glb",
+  "output_verifica_gltf": "/home/claude/zanatomy/export/intestino-crasso-test-verifica.gltf",
+  "note_approfondimento": ["Cieco (cecum) e retto (rectum) non trovati come oggetti nel file (né mesh né label): esclusi, non inventati."]
+}

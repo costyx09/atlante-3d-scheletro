@@ -1,0 +1,5 @@
+{"apparato_id":"urinario","organo_id":"vie-urinarie","oggetti":["Ureter.l","Ureter.r","Urinary bladder","Urethra"],
+ "parti":{"Ureter.l":"uretere-sinistro","Ureter.r":"uretere-destro","Urinary bladder":"vescica","Urethra":"uretra"},
+ "materiali":{},"materiale_default":[0.85,0.8,0.5],
+ "output":"/home/claude/zanatomy/export/vie-urinarie-test.glb",
+ "output_verifica_gltf":"/home/claude/zanatomy/export/vie-urinarie-test-verifica.gltf","note_approfondimento":[]}

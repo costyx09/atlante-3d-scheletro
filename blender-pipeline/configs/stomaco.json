@@ -1,0 +1,14 @@
+{
+  "apparato_id": "digerente",
+  "organo_id": "stomaco",
+  "oggetti": ["Stomach", "Mucosa of stomach"],
+  "parti": {},
+  "materiali": {
+    "Intestine": [0.75, 0.32, 0.28],
+    "Mucosa of stomach": [0.86, 0.62, 0.62]
+  },
+  "materiale_default": [0.75, 0.32, 0.28],
+  "output": "/home/claude/zanatomy/export/stomaco-test-v2.glb",
+  "output_verifica_gltf": "/home/claude/zanatomy/export/stomaco-test-v2-verifica.gltf",
+  "note_approfondimento": []
+}

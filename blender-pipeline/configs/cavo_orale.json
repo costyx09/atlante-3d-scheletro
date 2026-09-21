@@ -1,0 +1,8 @@
+{
+  "apparato_id": "digerente", "organo_id": "cavo-orale",
+  "oggetti": ["Tongue"], "parti": {},
+  "materiali": {}, "materiale_default": [0.85, 0.5, 0.5],
+  "output": "/home/claude/zanatomy/export/cavo-orale-test.glb",
+  "output_verifica_gltf": "/home/claude/zanatomy/export/cavo-orale-test-verifica.gltf",
+  "note_approfondimento": ["Solo la lingua (Tongue) è disponibile come mesh reale; palato, denti e labbra non hanno geometria pulita separata nel file esplorato. 'Cavo orale' è quindi rappresentato dalla lingua, con le altre strutture trattate come contenuto testuale."]
+}

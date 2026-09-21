@@ -1,0 +1,13 @@
+{
+  "apparato_id": "digerente", "organo_id": "ghiandole-salivari",
+  "oggetti": ["Parotid gland.l", "Parotid gland.r", "Submandibular gland.l", "Submandibular gland.r", "Sublingual gland.l", "Sublingual gland.r"],
+  "parti": {
+    "Parotid gland.l": "parotide-sinistra", "Parotid gland.r": "parotide-destra",
+    "Submandibular gland.l": "sottomandibolare-sinistra", "Submandibular gland.r": "sottomandibolare-destra",
+    "Sublingual gland.l": "sottolinguale-sinistra", "Sublingual gland.r": "sottolinguale-destra"
+  },
+  "materiali": {}, "materiale_default": [0.9, 0.75, 0.55],
+  "output": "/home/claude/zanatomy/export/ghiandole-salivari-test.glb",
+  "output_verifica_gltf": "/home/claude/zanatomy/export/ghiandole-salivari-test-verifica.gltf",
+  "note_approfondimento": []
+}

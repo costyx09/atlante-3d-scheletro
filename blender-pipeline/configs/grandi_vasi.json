@@ -1,0 +1,8 @@
+{"apparato_id":"circolatorio","organo_id":"grandi-vasi",
+ "oggetti":["Ascending aorta","Abdominal aorta","Inferior vena cava (thoracic part)","Inferior vena cava (abdominal part)"],
+ "parti":{"Ascending aorta":"aorta-ascendente","Abdominal aorta":"aorta-addominale",
+ "Inferior vena cava (thoracic part)":"vena-cava-toracica","Inferior vena cava (abdominal part)":"vena-cava-addominale"},
+ "materiali":{},"materiale_default":[0.65,0.1,0.15],
+ "output":"/home/claude/zanatomy/export/grandi-vasi-test.glb",
+ "output_verifica_gltf":"/home/claude/zanatomy/export/grandi-vasi-test-verifica.gltf",
+ "note_approfondimento":["Rappresentazione essenziale: solo tratti principali di aorta e vena cava inferiore, non l'intero albero arterioso/venoso."]}

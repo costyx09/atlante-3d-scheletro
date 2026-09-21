@@ -1,0 +1,55 @@
+{
+  "apparato_id": "locomotore",
+  "organo_id": "arti-scheletrici",
+  "oggetti": [
+    "Clavicle.l",
+    "Clavicle.r",
+    "Scapula.l",
+    "Scapula.r",
+    "Humerus.l",
+    "Humerus.r",
+    "Radius.l",
+    "Radius.r",
+    "Ulna.l",
+    "Ulna.r",
+    "Femur.l",
+    "Femur.r",
+    "Tibia.l",
+    "Tibia.r",
+    "Fibula.l",
+    "Fibula.r",
+    "Patella.l",
+    "Patella.r"
+  ],
+  "parti": {
+    "Clavicle.l": "clavicle-l",
+    "Clavicle.r": "clavicle-r",
+    "Scapula.l": "scapula-l",
+    "Scapula.r": "scapula-r",
+    "Humerus.l": "humerus-l",
+    "Humerus.r": "humerus-r",
+    "Radius.l": "radius-l",
+    "Radius.r": "radius-r",
+    "Ulna.l": "ulna-l",
+    "Ulna.r": "ulna-r",
+    "Femur.l": "femur-l",
+    "Femur.r": "femur-r",
+    "Tibia.l": "tibia-l",
+    "Tibia.r": "tibia-r",
+    "Fibula.l": "fibula-l",
+    "Fibula.r": "fibula-r",
+    "Patella.l": "patella-l",
+    "Patella.r": "patella-r"
+  },
+  "materiali": {},
+  "materiale_default": [
+    0.9,
+    0.87,
+    0.79
+  ],
+  "output": "/home/claude/zanatomy/export/arti-scheletrici-test.glb",
+  "output_verifica_gltf": "/home/claude/zanatomy/export/arti-scheletrici-test-verifica.gltf",
+  "note_approfondimento": [
+    "Ossa lunghe e cinture (scapolare/pelvica ossea) incluse; carpo/metacarpo/falangi di mano e tarso/metatarso/falangi di piede NON inclusi in questa versione (decine di piccole ossa per lato, rimandate per tempo/peso: mani e piedi restano rappresentati dal guscio placeholder)."
+  ]
+}

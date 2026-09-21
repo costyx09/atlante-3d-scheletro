@@ -1,0 +1,4 @@
+{"apparato_id":"endocrino","organo_id":"tiroide","oggetti":["Thyroid gland"],"parti":{},
+ "materiali":{},"materiale_default":[0.7,0.35,0.4],
+ "output":"/home/claude/zanatomy/export/tiroide-test.glb",
+ "output_verifica_gltf":"/home/claude/zanatomy/export/tiroide-test-verifica.gltf","note_approfondimento":[]}

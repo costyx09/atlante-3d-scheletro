@@ -1,0 +1,7 @@
+{"apparato_id":"respiratorio","organo_id":"polmoni",
+ "oggetti":["Superior lobe of left lung","Inferior lobe of left lung","Superior lobe of right lung","Middle lobe of right lung","Inferior lobe of right lung"],
+ "parti":{"Superior lobe of left lung":"lobo-superiore-sinistro","Inferior lobe of left lung":"lobo-inferiore-sinistro",
+ "Superior lobe of right lung":"lobo-superiore-destro","Middle lobe of right lung":"lobo-medio-destro","Inferior lobe of right lung":"lobo-inferiore-destro"},
+ "materiali":{},"materiale_default":[0.85,0.6,0.6],
+ "output":"/home/claude/zanatomy/export/polmoni-test.glb",
+ "output_verifica_gltf":"/home/claude/zanatomy/export/polmoni-test-verifica.gltf","note_approfondimento":[]}

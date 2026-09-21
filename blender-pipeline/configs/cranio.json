@@ -1,0 +1,49 @@
+{
+  "apparato_id": "locomotore",
+  "organo_id": "cranio",
+  "oggetti": [
+    "Frontal bone",
+    "Parietal bone.l",
+    "Parietal bone.r",
+    "Temporal bone.l",
+    "Temporal bone.r",
+    "Occipital bone",
+    "Sphenoid bone",
+    "Ethmoid bone",
+    "Maxilla.l",
+    "Maxilla.r",
+    "Mandible",
+    "Zygomatic bone.l",
+    "Zygomatic bone.r",
+    "Nasal bone.l",
+    "Nasal bone.r"
+  ],
+  "parti": {
+    "Frontal bone": "frontal-bone",
+    "Parietal bone.l": "parietal-bone-l",
+    "Parietal bone.r": "parietal-bone-r",
+    "Temporal bone.l": "temporal-bone-l",
+    "Temporal bone.r": "temporal-bone-r",
+    "Occipital bone": "occipital-bone",
+    "Sphenoid bone": "sphenoid-bone",
+    "Ethmoid bone": "ethmoid-bone",
+    "Maxilla.l": "maxilla-l",
+    "Maxilla.r": "maxilla-r",
+    "Mandible": "mandible",
+    "Zygomatic bone.l": "zygomatic-bone-l",
+    "Zygomatic bone.r": "zygomatic-bone-r",
+    "Nasal bone.l": "nasal-bone-l",
+    "Nasal bone.r": "nasal-bone-r"
+  },
+  "materiali": {},
+  "materiale_default": [
+    0.92,
+    0.88,
+    0.8
+  ],
+  "output": "/home/claude/zanatomy/export/cranio-test.glb",
+  "output_verifica_gltf": "/home/claude/zanatomy/export/cranio-test-verifica.gltf",
+  "note_approfondimento": [
+    "Denti, orecchio interno e piccole ossa suturali non incluse in questa versione."
+  ]
+}

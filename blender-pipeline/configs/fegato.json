@@ -1,0 +1,24 @@
+{
+  "apparato_id": "digerente",
+  "organo_id": "fegato",
+  "oggetti": ["Liver"],
+  "parti": {},
+  "materiali": {
+    "Organ": [0.45, 0.18, 0.14],
+    "Ligament": [0.85, 0.83, 0.78]
+  },
+  "materiale_default": [0.45, 0.18, 0.14],
+  "output": "/home/claude/zanatomy/export/fegato-test.glb",
+  "output_verifica_gltf": "/home/claude/zanatomy/export/fegato-test-verifica.gltf",
+  "note_approfondimento": [
+    "Posterior segment of liver (I) [TA2 3073]",
+    "Left posterior lateral segment of liver (II) [TA2 3068]",
+    "Left anterior lateral segment of liver (III) [TA2 3069]",
+    "Left medial segment of liver (IV) [TA2 3071]",
+    "Anterior medial segment of liver (V) [TA2 3076]",
+    "Anterior lateral segment of liver (VI) [TA2 3079]",
+    "Posterior lateral segment of liver (VII) [TA2 3080]",
+    "Posterior medial segment of liver (VIII) [TA2 3077]",
+    "-- Segmenti di Couinaud, mesh reali e già individuate, riservate a un futuro livello Approfondimento. Non incluse nella scena principale per il liceo scientifico."
+  ]
+}

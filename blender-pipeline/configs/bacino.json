@@ -1,0 +1,21 @@
+{
+  "apparato_id": "locomotore",
+  "organo_id": "bacino",
+  "oggetti": [
+    "Hip bone.l",
+    "Hip bone.r"
+  ],
+  "parti": {
+    "Hip bone.l": "hip-bone-l",
+    "Hip bone.r": "hip-bone-r"
+  },
+  "materiali": {},
+  "materiale_default": [
+    0.89,
+    0.85,
+    0.77
+  ],
+  "output": "/home/claude/zanatomy/export/bacino-test.glb",
+  "output_verifica_gltf": "/home/claude/zanatomy/export/bacino-test-verifica.gltf",
+  "note_approfondimento": []
+}
